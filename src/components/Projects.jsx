@@ -8,7 +8,7 @@ const Projects = () => {
       name: 'Portfolio Website',
       technologies: 'React, Tailwind CSS, JavaScript, Flask',
       image: '../src/assets/Portofoliu.png',
-      link: 'https://github.com/Ionut180205/proiect-individual',
+      link: 'https://github.com/Ionut180205/portofolio',
     },
     {
       id: 2,

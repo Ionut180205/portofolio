@@ -12,7 +12,7 @@ const Navbar = ({ scrollToSection }) => {
           <button onClick={() => scrollToSection('projects')} className='hover:text-gray-400'>Projects</button>
           <button onClick={() => scrollToSection('contact')} className='hover:text-gray-400'>Contact</button>
         </div>
-        <a href="/proiect-individual/login" className='hidden'>
+        <a href="/portofolio/login" className='hidden'>
           <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
             Login

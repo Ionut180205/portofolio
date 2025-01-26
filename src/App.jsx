@@ -34,7 +34,7 @@ function App() {
       <div>
         <Routes>
           <Route
-            path="/proiect-individual"
+            path="/portofolio"
             element={
               <>
                 <Navbar scrollToSection={scrollToSection} />
@@ -56,10 +56,10 @@ function App() {
               </>
             }
           />
-          <Route path="/proiect-individual/login" element={<Login />} />
-          <Route path="/proiect-individual/admin" element={<Admin />} />
-          <Route path="/proiect-individual/resume" element={<Resume />} />
-          <Route path="/proiect-individual/servicesabout" element={<ServicesAbout />} />
+          <Route path="/portofolio/login" element={<Login />} />
+          <Route path="/portofolio/admin" element={<Admin />} />
+          <Route path="/portofolio/resume" element={<Resume />} />
+          <Route path="/portofolio/servicesabout" element={<ServicesAbout />} />
           
         </Routes>
       </div>
